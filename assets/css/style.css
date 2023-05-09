@@ -95,7 +95,7 @@ a {
   padding: 13px 16px;
   margin-left: 18px;
 }
-
+/* Hero */
 .hero {
   margin-top: 130px;
 }
@@ -163,18 +163,20 @@ a {
 }
 
 .clients .images {
-  margin-top: 96px;
+  margin-top: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.clients .box {
-  padding: 25px 28px 18px;
+.clients .images a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px
+  
 }
-
-.clients .box:hover {
-  background: #ffffff;
+.clients .images a:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
 }
