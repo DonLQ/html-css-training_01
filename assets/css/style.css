@@ -626,18 +626,18 @@ a {
   gap: 0 16px;
 }
 
-.footer .social-link:hover {
-  background: #eeececdd;
-  border-radius: 3px;
-}
-
 .footer .social-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 28px;
   height: 28px;
+  background: #F9F9F9;
+  border-radius: 3px;
+}
 
+.footer .social-link:hover {
+  background: #eeececdd;
 }
 
 .footer .copy {
