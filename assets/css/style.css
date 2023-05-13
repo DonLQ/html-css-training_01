@@ -588,9 +588,8 @@ a {
 
 /* ============ Footer ============ */
 .footer {
-  margin-top: 55px;
   height: 429px;
-  padding: 50px 0 58px;
+  padding-top: 55px;
 }
 
 .footer .row {
@@ -598,7 +597,7 @@ a {
   justify-content: space-between;
 }
 
-.footer .row-top {
+.footer .row-top {5 
   gap: 185px;
 }
 
